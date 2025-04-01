@@ -8,7 +8,7 @@ username = "Administrator"
 password = "YourP@ssw0rd!"
 dc_ip = "192.168.1.10"
 userlist_file = "users.txt"
-secretsdump_path = "/path/to/impacket/examples/secretsdump.py"  # 👈 Update this path
+secretsdump_path = "/path/to/impacket/examples/secretsdump.py"  # Update this path
 output_file = "dcsyncoutput.txt"
 
 # ---- Load users ----
